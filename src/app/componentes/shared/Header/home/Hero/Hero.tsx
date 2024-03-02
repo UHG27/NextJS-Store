@@ -1,6 +1,5 @@
 import styles from './Hero.module.sass'
 
-
 export const Hero = () => {
     
     
