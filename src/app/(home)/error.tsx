@@ -10,13 +10,12 @@ interface ErrorProps{
 export default function Error({error, reset}: ErrorProps){
     useEffect(() => {
         console.log(error);
-        
     }, [])
     return(
         <div>
             <h1>:c</h1>
             <p>Ha ocurrido un error</p>
-            <button onClick={reset}>Intentar de nuevp</button>
+            <button onClick={reset}>Intentar de nuevo</button>
         </div>
     )
 }
