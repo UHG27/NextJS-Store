@@ -10,8 +10,7 @@ const getProducts = async () =>{
       })
   })
 
-  throw new Error('Error')
-  const {products} = await response.json()
+  const { products } = await response.json()
   return products
   } catch (error) {
     console.log(error);
