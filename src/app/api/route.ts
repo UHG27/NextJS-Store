@@ -1,4 +1,4 @@
-import { getProducts } from "../service/shopify"
+import { getProducts } from "../service/shopify/products"
 
 
 export async function GET(){
